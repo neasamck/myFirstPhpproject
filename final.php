@@ -1,4 +1,4 @@
-?php
+<?php
     $cust_name=htmlentities($_POST['cust_name']);
 	$cust_email=htmlentities($_POST['cust_email']);
 	$cust_address=htmlentities($_POST['cust_address']);
