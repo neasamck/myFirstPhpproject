@@ -1,8 +1,8 @@
 ?php
-    $cust_name=htmllentities($_POST['cust_name'});
-	$cust_email=htmllentities($_POST['cust_email'});
-	$cust_address=htmllentities($_POST['cust_address'});
-	$cust_phone=htmllentities($_POST['cust_phone'});
+    $cust_name=htmlentities($_POST['cust_name'});
+	$cust_email=htmlentities($_POST['cust_email'});
+	$cust_address=htmlentities($_POST['cust_address'});
+	$cust_phone=htmlentities($_POST['cust_phone'});
 ?>
 
 <html>
