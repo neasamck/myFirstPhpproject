@@ -1,6 +1,6 @@
 <?php
-    $cust_name=htmllentities($_POST['cust_name'});
-	$cust_email=htmllentities($_POST['cust_email'});
+    $cust_name=htmllentities($_POST['cust_name']);
+	$cust_email=htmllentities($_POST['cust_email']);
 ?>
 
 <html>
